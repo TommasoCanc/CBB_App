@@ -15,7 +15,7 @@ observe({
   updateSelectInput(session = session, "text.db", choices = colmn.names)
 })
 
-# Show table whit uploaded data (temp_df)
+# Show table whit uploaded data (temp_df) HOLA HOLA
 output$inputDataframe <- DT::renderDataTable({
   
   req(input$file1)
