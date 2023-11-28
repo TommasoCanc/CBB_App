@@ -15,6 +15,7 @@ fluidRow(
   
       # Import file    
       div(class = "row",
+          
           column(12,
                  fileInput("file1", h5("Chose CSV File"),
                            accept = c(".csv"))
